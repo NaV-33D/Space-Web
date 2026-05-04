@@ -99,12 +99,12 @@ const Footer = () => {
               </a>
             </div>
 
-            <span className="text-sm text-gray-400 ">
+            <div className="text-sm text-gray-400 ">
               <ul className="flex gap-3">
                 <li className="hover:text-white">Privacy Policy</li>
                 <li className="hover:text-white">Terms & Conditions</li>
               </ul>
-            </span>
+            </div>
           </div>
         </div>
       </section>

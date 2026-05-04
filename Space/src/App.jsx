@@ -16,7 +16,7 @@ const App = () => {
       duration: 1200,
       easing: "ease-in-out",
     });
-  });
+  }, []);
   return (
     <div className="">
       <div className="h-[700px] relative">
@@ -24,7 +24,7 @@ const App = () => {
           autoPlay
           loop
           muted
-          className="fixed right-0 top-0 h-[700px] w-full object-cover z-[-1]"
+          className="fixed right-0 top-0 min-h-screen w-full object-cover z-[-1]"
         >
           <source src={BgVideo} type="video/mp4" />
         </video>
